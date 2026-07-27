@@ -1,0 +1,126 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    height:100%;
+    width:100%;
+    background-color:hsl(225, 100%, 94%);
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.container{
+    display:flex; 
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    width:500px;
+    height:600px;
+    margin-top:136px;
+    margin-bottom:50px;
+    border-radius: 10px;
+    padding:0px;
+}
+
+.container div{
+    margin-bottom: 5px;
+}
+
+.image img{
+    width:500px;
+    height:200px;
+    border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+}
+
+
+.container .title{
+    color:hsl(223, 47%, 23%);
+    font-family: "Red Hat Display", sans-serif;
+    font-size:35px;
+    font-weight: 900;
+
+}
+
+.descreption{
+    text-align: center;
+    color:hsl(224, 23%, 55%);
+    font-size: 16px;
+    width:270px;
+}
+
+.plan-container{
+    margin:5px;
+    width:80%;
+    height:80px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(114 128 167 / 4%);
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.plan-type{
+    position: absolute;
+    left: 90px;
+    width: 100px;
+}
+
+
+
+.plan-type .title{
+     color:hsl(223, 47%, 23%);
+     font-family: "Red Hat Display", sans-serif;
+     font-size:16px;
+     font-weight: 900;
+     
+}
+
+.plan-type .price{
+    color:hsl(223, 45%, 25%);
+    font-size: 16px;
+}
+
+.plan-container .change-button{
+    position: absolute;
+    left: 335px; 
+    font-weight: 900;  
+    color:hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+
+.img-music img{
+    width: 50px;
+    height: 61px;
+    position: absolute;
+    top: 11px;
+    left: 15px;
+}
+
+.pay-button{
+    margin-right:5px;
+     font-family: "Red Hat Display", sans-serif;
+    margin-left:5px;
+    font-weight: 900;
+    width:75%;
+    height:4%;
+    background-color:hsl(245, 75%, 52%);
+    color:hsl(225, 100%, 98%);
+    text-align:center;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 16px 1px #3f51b580;
+}
+
+.cancel-button{
+    color:hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 600;
+}
